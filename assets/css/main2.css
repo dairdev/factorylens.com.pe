@@ -1,0 +1,65 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+    height: 100%;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 800px;
+    min-height: 100%;
+    background-image: #e63e41;
+    background-image: -webkit-linear-gradient(top, #cd2f00 20%, #ff4c82 100%);
+    background-image: -moz-linear-gradient(top, #cd2f00 20%, #ff4c82 100%);
+    background-image: -o-linear-gradient(top, #cd2f00 20%, #ff4c82 100%);
+    background-image: -ms-linear-gradient(top, #cd2f00 20%, #ff4c82 100%);
+    background-image: linear-gradient(top, #cd2f00 20%, #ff4c82 100%);
+}
+
+.navbar .navbar-nav li a {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #ff4c82;
+    background-color: #ffffff;
+}
+
+#carousel-banner {
+    margin: 90px auto;
+    width: 70%;
+    max-height: 100%;
+    max-width: 1024px;
+}
+
+#carousel-banner .carousel-inner .item {
+    border: solid 10px #ffffff;
+}
+
+.thumbnail img {
+    height: 250px;
+}
+
+.navbar-default {
+    background: none;
+    border-radius:0;
+    box-shadow:none;
+    border:0;
+}
+
+@media (max-width: 500px){
+    .navbar-header {
+        height: 100px;
+    }
+}
+
+
+
+
+
+
